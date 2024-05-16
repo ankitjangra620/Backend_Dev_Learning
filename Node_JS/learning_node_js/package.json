@@ -1,0 +1,15 @@
+{
+  "name": "learning_node_js",
+  "version": "1.0.0",
+  "description": "Learning Node Js",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit Jangra",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
