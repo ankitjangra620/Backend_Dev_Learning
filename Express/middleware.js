@@ -14,6 +14,11 @@ middlewareRouter.use((req, res, next) => {
 
 // Else middle ware goes here
 
+// 1. Application Level Middleware.
+// 2. Router Level Middleware
+// 3. Error based middleware
+// 4. Built in middleware -> express.static, express.urlencoded
+// 5. Third party middleware
 
 
 middlewareRouter.use((req, res, next) => {

@@ -12,3 +12,10 @@ Q8 : What does the res.redirect method does? and also tell about sendFile(), sen
 Q9 : How to handle the multiple methods for a single route with app.route()? How do we handle the nested routing?
 Q10 : What are middleware? what is the significance of app.use and whay is the sequence of the middlewares are important? What are custom middlewares?
 Q11 : What are the types of middlewares that are available inside the express js?
+
+Q12 : What do you mean by express api overriding? What are the advantages of api overriding?
+Q13 : What is the usages of Object.defineProperty function? what is its syntax?
+Q14 : What are template engines in express js?
+
+Q15 : How do we handle the error handling inside expressjs?. why we use the custom error handler? where we define oru custom error handler?
+Q16 : How do we handle the custom trust proxy in express?
