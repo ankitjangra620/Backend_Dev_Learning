@@ -19,3 +19,18 @@ Q14 : What are template engines in express js?
 
 Q15 : How do we handle the error handling inside expressjs?. why we use the custom error handler? where we define oru custom error handler?
 Q16 : How do we handle the custom trust proxy in express?
+Q17 : What is the significance of these express middleware, their use and syntax?
+    a. express.json()
+    b. express.text();
+    c. express.urlencoded();
+    <!-- Note : These are the three middlewares used inside the express backend dev -->
+
+Q18 : What is the application object? Explain the properties of the app object?
+    a. app.locals and req.app.locals.
+    b. app.mountPath  <!-- How to handle sub app in express.  -->
+    c. app.on(event, callback) -> event = mount,
+    d. app.all(route, callback array)  <!-- What are the usages of app.all method -->
+    e. app.delete(route, callback)
+    f. app.disable(key, value), app.disabled(key), app.enable(key, value), app.enabled(key), app.set, app.get
+    g. app.engine(extension, callback -> require statement for engine);
+    e. app.param method.
