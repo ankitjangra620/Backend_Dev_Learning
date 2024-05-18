@@ -34,3 +34,20 @@ Q18 : What is the application object? Explain the properties of the app object?
     f. app.disable(key, value), app.disabled(key), app.enable(key, value), app.enabled(key), app.set, app.get
     g. app.engine(extension, callback -> require statement for engine);
     e. app.param method.
+    f. app.use([route1_pattren, route2_pattern], callback);
+
+Q19 : What is the parameters available for request? What are thier syntax and usages?
+    a. req.app || req.app.get('');
+    b. req.baseUrl , req.hostname, req.ip, req.ips, req.method, req.path,
+    c. req.body , req.cookies, 
+
+Q20 : What are the parameters and methods available for the response object? What are their syntax and usages?
+    a. res.append(key , value) //to set up the headers value
+    b. res.attachement()//set content type to file.
+    c. res.cookie()
+    d. res.download // It will promt the user to download the file?
+    e. res.end, res.status,
+    f. Difference between res.json and res.jsonp methods?
+    g. res.links, res.location.
+    h. res.redirect. -> it supports relative path, .. and back.
+    i. res.send vs res.sendFile
